@@ -1,6 +1,10 @@
 :root {
+  --color__primary: black;
+  --color__secondary: white;
   [data-theme='dark'] {
       color-scheme: dark;
+      --color__primary: white;
+      --color__secondary: black;
   }
 }
 html {
@@ -31,6 +35,8 @@ pre {
 }
 
 body {
+  background: var(--color__secondary);
+  color: var(--color__primary);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -75,4 +81,10 @@ select {
 a {
   text-decoration: none;
   color: inherit;
+}
+#sprite {
+  display: none;
+}
+svg {
+  fill: currentColor;
 }

@@ -1,0 +1,22 @@
+.master-header .hero {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid currentColor;
+  gap: 2em;
+  /* TODO: remove helper */
+}
+
+.master-header .hero article {
+  width: 400px;
+  height: 400px;
+  border: 1px solid currentColor;
+  border-radius: 10px;
+}
+
+.master-header .hero .button {
+  width: 100%;
+  text-align: center;
+}

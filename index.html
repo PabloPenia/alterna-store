@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="styles/reset.css" />
   <link rel="stylesheet" href="styles/app.css" />
+  <link rel="stylesheet" href="styles/home.css" />
+
   <script src="scripts/app.js" defer></script>
   <title>Home | Alterna Store </title>
 </head>
@@ -25,8 +27,18 @@
         </ul>
       </nav>
       <div class="buttons">
-        <button>cart</button>
-        <button>user</button>
+        <button class="flex btn" onclick="notImplemented()">
+          <span class="icon">
+            <svg><use href='assets/sprite.svg#cart-icon' /></svg>
+          </span>
+        </button>
+        <button class="flex btn" onclick="notImplemented()">
+          <span class="icon">
+            <svg>
+              <use href='assets/sprite.svg#user-icon' />
+            </svg>
+          </span>
+        </button>
       </div>
     </section>
     <section class="hero">
