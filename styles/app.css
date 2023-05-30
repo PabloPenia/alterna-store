@@ -61,5 +61,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid currentColor; /* TODO: remove helper */
+  text-transform: uppercase;
+}
+.logo {
+  font-size: 1.4em;
+  gap: 0.5em;
+}
+
+.logo img {
+  max-width: 50px;
 }

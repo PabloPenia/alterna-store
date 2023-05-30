@@ -1,6 +1,8 @@
 :root {
   --color__primary: black;
   --color__secondary: white;
+  --font__headings: 'Bangers', cursive;
+  --font__body: 'Nunito', sans-serif;
   [data-theme='dark'] {
       color-scheme: dark;
       --color__primary: white;
@@ -39,8 +41,11 @@ body {
   color: var(--color__primary);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: var(--font__body);
 }
-
+h1, h2, h3 {
+  font-family: var(--font__headings);
+}
 h1,
 h2,
 h3,

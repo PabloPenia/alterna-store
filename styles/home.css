@@ -1,17 +1,15 @@
 .master-header .hero {
-  flex: 1;
+  padding: 4em 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  border-bottom: 1px solid currentColor;
   gap: 2em;
-  /* TODO: remove helper */
 }
-
-.master-header .hero article {
+.hero article img {
   width: 400px;
   height: 400px;
+  object-fit: cover;
   border: 1px solid currentColor;
   border-radius: 10px;
 }
