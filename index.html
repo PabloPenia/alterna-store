@@ -28,23 +28,33 @@
             <a href="pages/shop.html">Tienda</a>
           </li>
           <li>
-            <a href="pages/about.html">Sobre nosotros</a>
+            <a href="#novedades">Novedades</a>
           </li>
         </ul>
       </nav>
-      <div class="buttons">
-        <button class="flex btn" onclick="notImplemented()">
-          <span class="icon">
-            <svg><use href='assets/sprite.svg#cart-icon' /></svg>
-          </span>
-        </button>
-        <button class="flex btn" onclick="notImplemented()">
-          <span class="icon">
-            <svg>
-              <use href='assets/sprite.svg#user-icon' />
-            </svg>
-          </span>
-        </button>
+      <div class="buttons flex">
+        <div class="toggler">
+          <button id="cartBtn" class="flex btn">
+            <span class="icon">
+              <svg><use href='assets/sprite.svg#cart-icon' /></svg>
+            </span>
+          </button>
+          <div class="toggler__content">
+            <h3>Tus productos</h3>
+          </div>
+        </div>
+        <div class="toggler">
+          <button id="userBtn" class="flex btn">
+            <span class="icon">
+              <svg>
+                <use href='assets/sprite.svg#user-icon' />
+              </svg>
+            </span>
+          </button>
+          <div class="toggler__content">
+            <h3>Menu de usuario</h3>
+          </div>
+        </div>
       </div>
     </section>
     <section class="hero">
@@ -53,9 +63,13 @@
       </article>
       <article><img src="assets/images/bracelet.jpg" alt=""></article>
       <article><img src="assets/images/jacket.jpg" alt=""></article>
-      <div class="button"><a class="link" href="pages/cart.html">Comprar ahora</a></div>
+      <div class="button"><a class="btn" href="pages/cart.html">Comprar ahora</a></div>
     </section>
   </header>
-  
+  <main>
+    <section id="novedades">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias a blanditiis, dicta maiores, quis ab, doloribus soluta eveniet illo nulla deleniti. Voluptas fugit, quasi beatae libero praesentium quia quaerat! Atque.
+    </section>
+  </main>
 </body>
 </html>

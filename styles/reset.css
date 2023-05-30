@@ -1,10 +1,12 @@
 :root {
-  --color__primary: black;
-  --color__secondary: white;
+  --color__primary: hsl(35, 20%, 15%);
+  --color__secondary: hsl(35, 20%, 75%);
+  --color__shadow--light: hsl(35, 20%, 95%);
+  --color__shadow--dark: hsl(35, 20%, 35%);
   --font__headings: 'Bangers', cursive;
   --font__body: 'Nunito', sans-serif;
-  --transition__on: .4s ease-in;
-  --transition__off: .2s ease-out;
+  --transition__on: .4s ease-out;
+  --transition__off: .2s ease-in;
   [data-theme='dark'] {
       color-scheme: dark;
       --color__primary: white;
