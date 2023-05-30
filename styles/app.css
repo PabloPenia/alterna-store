@@ -32,7 +32,7 @@ body {
 }
 .btn:hover, .link:hover {
   transform: scale(1.2);
-  transition: var(--transition__on);
+  transition: var(--transition__off);
 }
 /*******************
 * SHARED HEADER

@@ -4,7 +4,7 @@
   --font__headings: 'Bangers', cursive;
   --font__body: 'Nunito', sans-serif;
   --transition__on: .4s ease-in;
-  --transition__on: .2s ease-out;
+  --transition__off: .2s ease-out;
   [data-theme='dark'] {
       color-scheme: dark;
       --color__primary: white;
