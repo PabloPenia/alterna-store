@@ -28,6 +28,11 @@ body {
   display: inline-block;
   background: var(--color__primary);
   color: var(--color__secondary);
+  transition: var(--transition__on);
+}
+.btn:hover, .link:hover {
+  transform: scale(1.2);
+  transition: var(--transition__on);
 }
 /*******************
 * SHARED HEADER
