@@ -7,11 +7,13 @@
   --font__body: 'Nunito', sans-serif;
   --transition__on: .4s ease-out;
   --transition__off: .2s ease-in;
-  [data-theme='dark'] {
+  /* SPACING */
+  --sp__sides: 4%; 
+  /* [data-theme='dark'] {
       color-scheme: dark;
       --color__primary: white;
       --color__secondary: black;
-  }
+  } */
 }
 html {
   box-sizing: border-box;

@@ -1,15 +1,19 @@
 .hero {
-  padding: 4em 0;
+  padding: 2em 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 2em;
 }
+.hero article {
+  width: 25vw;
+  min-width: 200px;
+  height: 25vw;
+  min-height: 200px;
+}
 .hero article img {
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
+  height: 100%;
   border: 1px solid currentColor;
   border-radius: 10px;
 }
@@ -18,4 +22,13 @@
   width: 100%;
   text-align: center;
   font-size: 1.5em;
+}
+.gallery {
+  padding: 2em 0;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+.gallery > article img {
+  width: 200px;
+  height: 200px;
 }
