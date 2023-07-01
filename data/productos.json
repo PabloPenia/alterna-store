@@ -1,0 +1,47 @@
+[
+	{
+		"id": 1,
+		"name": "producto 1",
+		"desc": "descripcion del producto 1",
+		"cat": "cat 1",
+		"tags": ["tag 1", "tag 2"],
+		"image": "belt.png",
+		"price": 50.0
+	},
+	{
+		"id": 2,
+		"name": "producto 2",
+		"desc": "descripcion del producto 2",
+		"cat": "cat 1",
+		"tags": ["tag 1", "tag 2"],
+		"image": "belt2.jpg",
+		"price": 150.0
+	},
+	{
+		"id": 3,
+		"name": "producto 3",
+		"desc": "descripcion del producto 3",
+		"cat": "cat 2",
+		"tags": ["tag 1", "tag 2"],
+		"image": "bracelet.jpg",
+		"price": 50.0
+	},
+	{
+		"id": 4,
+		"name": "producto 4",
+		"desc": "descripcion del producto 4",
+		"cat": "cat 3",
+		"tags": ["tag 1", "tag 2"],
+		"image": "jacket.jpg",
+		"price": 550.0
+	},
+	{
+		"id": 5,
+		"name": "producto 5",
+		"desc": "descripcion del producto 5",
+		"cat": "cat 3",
+		"tags": ["tag 1", "tag 2"],
+		"image": "zipper.jpg",
+		"price": 50.0
+	}
+]
