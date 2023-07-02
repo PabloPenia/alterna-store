@@ -1,4 +1,13 @@
-import data from '../data/productos.json'
+import displayProducts from './displayProducts.js'
+
+window.addEventListener('load', (e) => {
+	const pathname = window.location.pathname
+	switch (pathname) {
+		case '/':
+		case '/index.html':
+			displayProducts('novedades', 'image')
+	}
+})
 
 function notImplemented() {
 	return alert('Function not implemented.')
@@ -14,27 +23,4 @@ function showUi(btn) {
 	btn.nextElementSibling.style.display === 'block'
 		? (btn.nextElementSibling.style.display = 'none')
 		: (btn.nextElementSibling.style.display = 'block')
-}
-
-useDisplayProducts('novedades', 'image')
-
-function useDisplayProducts(el, output) {
-	const container = document.getElementById(el)
-	if (!container) {
-		throw new Error('El elemento especificado no existe.')
-	}
-
-	let html = ``
-
-	data.forEach((item) => {
-		html += `<article>`
-		switch (output) {
-			case 'image':
-				html += `<img src="assets/images/${item.image}" alt=${item.name}>`
-			default:
-				break
-		}
-		html += `</article>`
-	})
-	container.innerHTML = html
 }
