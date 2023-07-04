@@ -88,6 +88,10 @@ main > section {
   border-bottom: 1px solid currentColor;
   box-shadow: 0 -1px 3px var(--color__shadow--dark);
 }
+.master-header .logo {
+  padding-top: 0.8em;
+  max-width: 10%;
+}
 .master-header .navigation {
   display: flex;
   justify-content: space-between;
