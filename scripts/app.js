@@ -1,3 +1,14 @@
+import displayProducts from './displayProducts.js'
+
+window.addEventListener('load', (e) => {
+	const pathname = window.location.pathname
+	switch (pathname) {
+		case '/':
+		case '/index.html':
+			displayProducts('novedades', 'image')
+	}
+})
+
 function notImplemented() {
 	return alert('Function not implemented.')
 }
