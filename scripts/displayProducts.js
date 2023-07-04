@@ -12,7 +12,8 @@ async function getProducts() {
 	}
 }
 
-export default async function displayProducts(el, output) {
+export default async function displayProducts(el, output, cat = -1) {
+	const categories = ['sin categoria', 'cintos', 'carteras', 'accesorios']
 	const container = document.getElementById(el)
 	if (!container) {
 		throw new Error('El elemento especificado no existe.')
@@ -22,17 +23,24 @@ export default async function displayProducts(el, output) {
 		return
 	}
 
-	let html = ``
-
-	data.forEach((item) => {
+	const products =
+		cat >= 0 ? data.filter((item) => item?.cat === cat) : [...data]
+	console.log(products)
+	let html = `
+		<h2>${categories[cat]}</h2>
+		<div class="cards-gallery flex">
+	`
+	products.forEach((item) => {
 		html += `<article>`
 		switch (output) {
-			case 'image':
+			case 'card':
 				html += `<img src="assets/images/${item.image}" alt=${item.name}>`
 			default:
 				break
 		}
 		html += `</article>`
 	})
+
+	html += `</div>`
 	container.innerHTML = html
 }

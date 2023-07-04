@@ -1,47 +1,154 @@
 [
 	{
 		"id": 1,
-		"name": "producto 1",
-		"desc": "descripcion del producto 1",
-		"cat": "cat 1",
-		"tags": ["tag 1", "tag 2"],
+		"name": "cinto repujado",
+		"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+		"cat": 1,
 		"image": "belt.png",
-		"price": 50.0
+		"price": 1200
 	},
 	{
 		"id": 2,
-		"name": "producto 2",
-		"desc": "descripcion del producto 2",
-		"cat": "cat 1",
-		"tags": ["tag 1", "tag 2"],
-		"image": "belt2.jpg",
-		"price": 150.0
+		"name": "muñequera repujada",
+		"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+		"cat": 3,
+		"image": "accesorio1.jpg",
+		"price": 1000
 	},
 	{
 		"id": 3,
-		"name": "producto 3",
-		"desc": "descripcion del producto 3",
-		"cat": "cat 2",
-		"tags": ["tag 1", "tag 2"],
-		"image": "bracelet.jpg",
-		"price": 50.0
+		"name": "muñequera remachada",
+		"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+		"cat": 3,
+		"image": "accesorio2.jpg",
+		"price": 600
 	},
 	{
 		"id": 4,
-		"name": "producto 4",
-		"desc": "descripcion del producto 4",
-		"cat": "cat 3",
-		"tags": ["tag 1", "tag 2"],
-		"image": "jacket.jpg",
-		"price": 550.0
+		"name": "pulsera con cadenas",
+		"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+		"cat": 3,
+		"image": "accesorio3.jpg",
+		"price": 300
 	},
 	{
 		"id": 5,
-		"name": "producto 5",
-		"desc": "descripcion del producto 5",
-		"cat": "cat 3",
-		"tags": ["tag 1", "tag 2"],
-		"image": "zipper.jpg",
-		"price": 50.0
+		"name": "muñequera con argolla",
+		"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+		"cat": 3,
+		"image": "accesorio4.jpg",
+		"price": 600
+	},
+	{
+		"id": 6,
+		"name": "muñequera de cuero",
+		"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+		"cat": 3,
+		"image": "accesorio5.jpg",
+		"price": 400
+	},
+	{
+		"id": 7,
+		"name": "muñequeras de cuero",
+		"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+		"cat": 3,
+		"image": "accesorio6.jpg",
+		"price": 1000
+	},
+	{
+		"id": 8,
+		"name": "muñequeras con argolla",
+		"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+		"cat": 3,
+		"image": "accesorio7.jpg",
+		"price": 1500
+	},
+	{
+		"id": 9,
+		"name": "pulseras repujadas",
+		"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+		"cat": 3,
+		"image": "accesorio8.jpg",
+		"price": 400
+	},
+	{
+		"id": 10,
+		"name": "agenda repujada",
+		"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+		"cat": 3,
+		"image": "accesorio9.jpg",
+		"price": 2000
+	},
+	{
+		"id": 11,
+		"name": "cinto con tachas",
+		"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+		"cat": 1,
+		"image": "belt2.jpg",
+		"price": 1000
+	},
+	{
+		"id": 12,
+		"name": "Cinto negro",
+		"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+		"cat": 1,
+		"image": "belt3.jpg",
+		"price": 800
+	},
+	{
+		"id": 13,
+		"name": "cinto cuerina",
+		"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+		"cat": 1,
+		"image": "belt4.jpg",
+		"price": 600
+	},
+	{
+		"id": 14,
+		"name": "cinto marron",
+		"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+		"cat": 1,
+		"image": "belt5.jpg",
+		"price": 800
+	},
+	{
+		"id": 15,
+		"name": "cintos vaqueta",
+		"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+		"cat": 1,
+		"image": "belt6.jpg",
+		"price": 800
+	},
+	{
+		"id": 16,
+		"name": "cinto vaqueta",
+		"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+		"cat": 1,
+		"image": "belt7.jpg",
+		"price": 1000
+	},
+	{
+		"id": 17,
+		"name": "cartera",
+		"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+		"cat": 2,
+		"image": "cartera1.jpg",
+		"price": 2500
+	},
+	{
+		"id": 18,
+		"name": "cartera 2",
+		"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+		"cat": 2,
+		"image": "cartera2.jpg",
+		"price": 1500
+	},
+	{
+		"id": 19,
+		"name": "cartera 3",
+		"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+		"cat": 2,
+		"image": "cartera3.jpg",
+		"price": 2000
 	}
 ]

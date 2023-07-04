@@ -31,14 +31,28 @@ main > section {
   border: 1px solid currentColor;
   background: var(--color__secondary);
 }
-.icon {
+/* SVG */
+.icon, .logo {
   display: block;
   position: relative;
-  width: 3rem;
   height: 0;
+}
+.icon {
+  width: 3rem;
   padding-top: 3rem;
 }
-.icon > svg {
+.logo__with-typo {
+  color: var(--color__primary);
+  width: calc(50px * 2.3);
+  padding-top: 50px;
+}
+.logo__initial {
+  width: 70px;
+  padding-top: 70px;
+}
+
+.icon > svg,
+.logo > svg {
   position: absolute;
   top: 0;
   left: 0;
@@ -89,14 +103,16 @@ main > section {
   box-shadow: 0 -1px 3px var(--color__shadow--dark);
 }
 .master-header .logo {
-  padding-top: 0.8em;
-  max-width: 10%;
+  /* padding-top: 0.8em;
+  max-width: 10%; */
 }
 .master-header .navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
+  gap: 1em;
+  font-weight: 700;
 }
 .master-header .buttons {
   gap: 1em;
@@ -127,4 +143,9 @@ main > section {
 .master-footer section:last-of-type {
   max-width: fit-content;
 
+}
+
+.master-footer .brand p {
+  padding: 2em;
+  font-size: 1.2em;
 }
