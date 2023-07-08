@@ -34,7 +34,7 @@ export default async function displayProducts(el, output, cat = -1) {
 		html += `<article>`
 		switch (output) {
 			case 'card':
-				html += `<img src="assets/images/${item.image}" alt=${item.name}>`
+				html += `<img src="assets/images/thumbs/${item.image}" alt=${item.name}>`
 			default:
 				break
 		}
