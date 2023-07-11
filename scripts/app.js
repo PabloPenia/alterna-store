@@ -4,9 +4,7 @@ const pathname = window.location.pathname
 switch (pathname) {
 	case '/':
 	case '/index.html':
-		displayProducts('cintos', 'card', 1)
-		displayProducts('carteras', 'card', 2)
-		displayProducts('accesorios', 'card', 3)
+		displayProducts('destacados', 'card')
 	default:
 		break
 }

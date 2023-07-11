@@ -11,8 +11,13 @@ async function getProducts() {
 		console.log(error)
 	}
 }
+export async function displayFeaturedProducts(el, output) {
+	const dataArr = await getProducts()
 
-export default async function displayProducts(el, output, cat = -1) {
+	return dataArr.filter((product) => product.featured === true)
+}
+
+export async function displayProducts(arr, el, output, cat = -1) {
 	const categories = ['sin categoria', 'cintos', 'carteras', 'accesorios']
 	const container = document.getElementById(el)
 	if (!container) {
@@ -27,7 +32,7 @@ export default async function displayProducts(el, output, cat = -1) {
 		cat >= 0 ? data.filter((item) => item?.cat === cat) : [...data]
 	console.log(products)
 	let html = `
-		<h2>${categories[cat]}</h2>
+		${cat >= 0 ? `<h2>${categories[cat]}</h2>` : ''}
 		<div class="cards-gallery flex">
 	`
 	products.forEach((item) => {
